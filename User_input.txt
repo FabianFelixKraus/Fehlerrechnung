@@ -1,0 +1,12 @@
+##################################################################################################################
+Hello Leudis, gebt hier bitte nach dem doppelten "!" und vor dem doppelten "?" für die gaussche Fehlerfortpflanzung folgendes an:
+
+
+
+ Variablen mit Fehler, von denen die partielle Ableitung genommen werden soll
+
+!! a = 0.01 ??
+!! b = 0.5 ??
+!! c = 0.2 ??
+
+
