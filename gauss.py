@@ -72,7 +72,6 @@ def main_gauss(data):
         term=''
         for var in variablen:
             ableitung= str(diff(f,var))
-            print("fehler:" ,fehler)
             for i in range(len(fehler)):
                 if fehler[i][0] == str(var):
                     term = term + "(" +ableitung+"*"+str(fehler[i][1])+  ")**2+"
